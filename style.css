@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
+. {
+    box-sizing:border-box;
+    color:#777;
+    
+}
+
+html, body{
+    background-color: rgb(77, 80, 77);
+    margin:0;
+    padding:0;font-family: Raleway;
+    font-size: 14px;
+    
+
+}
+.main-header{
+    background-image: url("Images/header.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+    
+}
+h1{
+    color: fuchsia;
+    padding-left: 34%;
+}
+.nav ul{
+    margin:0;
+    
+}
+    
+.nav_links{
+    display:flex;
+    margin-left: 52%;
+    
+  
+}
+.nav_links li{
+    padding:.5em;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 5%;
+    text-decoration: none;
+
+   
+}
+
+/*.nav a{
+    padding:.5em;
+    color: blue;
+    text-decoration: none;
+    
+}*/
+.nav a:hover {
+  background-color:rgba(240, 232, 233, 0.904);
+}
+.image{
+    margin-left: 74%;
+  
+  
+  
+   
+}

@@ -5,45 +5,74 @@
     
 }
 
-html, body{
-    background-color: rgb(77, 80, 77);
+body{
+    background-color: rgb(243, 220, 225);
     margin:0;
     padding:0;font-family: Raleway;
     font-size: 14px;
     
 
 }
-.main-header{
+/*.main-header{
     background-image: url("Images/header.jpg");
     background-size: cover;
     padding-bottom: 40px;
     
-}
+}*/
 h1{
     color: fuchsia;
     padding-left: 34%;
 }
-.nav ul{
-    margin:0;
-    
-}
-    
-.nav_links{
-    display:flex;
-    margin-left: 52%;
-    
-  
-}
-.nav_links li{
-    padding:.5em;
-    list-style: none;
-    font-size: 20px;
-    margin-top: 5%;
-    text-decoration: none;
 
-   
+.navbar{
+    margin-top: -2%;
+    padding-top: 7%;
 }
 
+
+
+nav{
+text-align: right;
+width: 48%;
+margin-left: 45%;
+margin-top: 10%;
+padding-bottom: -5%;
+
+
+}
+
+.firstline{
+ margin-left: 8%;
+ border: solid transparent;
+ width: fit-content;
+ margin-top: -5%;
+ font-size: larger;
+ color:white;
+ font-weight: bolder;
+ display: flex;
+ padding-top: -2%;
+ }
+
+
+nav ul li {
+list-style: none;
+display: inline;
+font-size: 20px;
+flex-direction:right;
+ padding-right:6%;
+
+
+
+
+
+}
+
+nav ul li a{
+color:white;
+text-decoration: none;
+padding: 0px;
+
+}
 /*.nav a{
     padding:.5em;
     color: blue;
@@ -53,10 +82,170 @@ h1{
 .nav a:hover {
   background-color:rgba(240, 232, 233, 0.904);
 }
-.image{
-    margin-left: 74%;
+
   
-  
-  
+
+.open{
+    margin-left: 7%;
+    margin-top: 10%;
+    
+}
+.open h2{
+    color: rgb(0, 225, 255);
+    font-size: 20px;
+    margin-left: 35%;
+}
+.open p{
+    color:rgb(221, 149, 197);
+    font-size: 20px;
+    font-weight: 400px;
+    margin-left: 12%;
+}
+.open h3{
+    color: white;
+    
+}
+.opening{
+    display: flex;
+    margin-top: -2%;
+}
+
+.about{
+    border: solid white;
+    width: 63%;
+    margin-left: 32%;
+    margin-top: -23%;
+    background-color:white ;
+}
+
+.One{
+    background-color: rgb(100, 72, 78);
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: -5%;
+
+}
+
+.title{
+    margin-right: -19%;
+}
+.title h1{
+    font-size: 30px;
+
+}
+
+.describe{
+    margin-left: 6%; 
+
+}
+.describe p{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+.me{
+    margin-right: 3%;
+}
+.Two{
+    background-color: rgb(100, 72, 78);
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+      
+}
+.title2{
+    margin-left: 28%;
+    margin-top: 2.7%;
+    border: solid transparent;
+    width: 40%;
+    
+}
+
+.title2 h1{
+    padding-top:10%;
+    color: white;
+    font-size: 30px;
+}
+.title2 p{
+    font-size: 20px;
+    color: rgb(0, 225, 255);
+    font-weight: bolder;
+    margin-left: 4%;
+    border: solid transparent;
+    width: 800px;
+    margin-top: -2%;
+}
+.boxes{
+    display: flex;
+    border: solid white;
    
+    margin-top: 3%;
+    width: 89%;
+    margin-left: 5%;
+    background-color:rgb(250, 245, 246) ;
+    
+}
+
+.box1{
+    border: solid transparent;
+    width: 33%;
+    height: 300px;
+    background-color: white;
+    
+}
+
+.box2{
+    border: solid white;
+    width: 33%;
+    height: 300px;
+    background-color: palevioletred;
+}
+
+.box3{
+    border: solid transparent;
+    width: 33%;
+    height: 300px;
+    background-color: rgb(220, 238, 252);
+   
+
+}
+
+.box1 h3{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+}
+
+.box1 p{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+}
+
+
+
+.box2 h3{
+    margin-left: 8%;
+    color: white;
+}
+
+.box2 p{
+    margin-left: 8%;
+    color: white;
+}
+
+
+
+.box3 h3{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+}
+
+.box3 p{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+}
+
+
+
+.x,.y,.z{
+    margin-top: 40%;
 }

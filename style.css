@@ -10,6 +10,7 @@ body{
     margin:0;
     padding:0;font-family: Raleway;
     font-size: 14px;
+    overflow-x: hidden;
     
 
 }
@@ -177,6 +178,7 @@ padding: 0px;
 }
 .boxes{
     display: flex;
+    
     border: solid white;
    
     margin-top: 3%;
@@ -210,42 +212,58 @@ padding: 0px;
 
 }
 
+.box1 h2{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+    margin-top: -30%;
+}
+.html{
+    margin-left: 7%;  
+    margin-top: 10%;
+}
 .box1 h3{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
-}
-
-.box1 p{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
+    font-size: 15px;
 }
 
 
-
+.box2 h2{
+    margin-left: 8%;
+    color:white;
+    margin-top: -30%;
+}
+.design{
+    margin-left: 7%;  
+    margin-top: 10%;
+}
 .box2 h3{
-    margin-left: 8%;
-    color: white;
-}
-
-.box2 p{
-    margin-left: 8%;
+    font-size: 15px;
     color: white;
 }
 
 
 
+.box3 h2{
+    margin-left: 8%;
+    color:rgb(63, 20, 4);
+    margin-top: -30%;
+}
+.python{
+    margin-left: 7%;  
+    margin-top: 10%;
+}
 .box3 h3{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
-}
-
-.box3 p{
-    margin-left: 8%;
-    color:rgb(63, 20, 4);
+    font-size: 15px;
+    color: rgb(63, 20, 4);
 }
 
 
 
 .x,.y,.z{
     margin-top: 40%;
+}
+.Three{
+    background-color: rgb(100, 72, 78);
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;  
 }

@@ -12,6 +12,7 @@ body{
     font-size: 14px;
     overflow-x: hidden;
     
+    
 
 }
 /*.main-header{
@@ -111,13 +112,8 @@ padding: 0px;
     margin-top: -2%;
 }
 
-.about{
-    border: solid white;
-    width: 63%;
-    margin-left: 32%;
-    margin-top: -23%;
-    background-color:white ;
-}
+
+
 
 .One{
     background-color: rgb(100, 72, 78);
@@ -267,3 +263,48 @@ padding: 0px;
     height: 100%;
     margin-left: 5%;  
 }
+
+.title3{
+    
+    margin-top: 2.7%;
+    border: solid transparent;
+    width: 40%;
+    
+}
+
+.title3 h1{
+    
+    color: palevioletred;
+    font-size: 30px;
+    margin-left: 60%;
+    
+    
+}
+
+.about{
+    border:solid snow;
+    background-color:snow;
+    width: 89%;
+    
+    height: fit-content;
+    margin-left: 5%;
+}
+
+.about h1{
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.about p{
+    margin-left: 3.5%;
+    font-size: 20px;
+}
+
+span{
+    color: black;
+    
+    
+}
+
+
